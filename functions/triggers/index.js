@@ -1,5 +1,8 @@
-const { onUserCreate } = require('./onUserCreate');
+const { onUserCreate } = require("./onUserCreate");
+const { onVoteCreate, onVoteChange } = require("./onVoteChanges");
 
 module.exports = {
-  onUserCreate
-}
+  onUserCreate,
+  onVoteCreate,
+  onVoteChange
+};
